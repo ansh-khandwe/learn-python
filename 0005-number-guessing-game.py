@@ -1,6 +1,6 @@
 from random import randrange
 
-target = randrange(1,10000)
+target = randrange(1,100)
 guess = int(input("guess a number : "))
 
 if guess == target:
